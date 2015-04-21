@@ -1,6 +1,6 @@
 # unifs
 
-A proof-of-concept project to mount multiple filesystem in a server-client, with permission and attibute managed by a database system.
+A proof-of-concept project to mount multiple filesystem in a server-client architecture, with permission and attibute managed by a database system.
 
 #Server side 
 
@@ -39,4 +39,5 @@ run srv.py
 #client side
 
 change the user and group attribute and the server's url:port
+
 run ./unifs.py tmp or whatever locale mountpoint
